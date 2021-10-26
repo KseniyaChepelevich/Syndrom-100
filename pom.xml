@@ -31,7 +31,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
                 <configuration>
-                    <skipAfterFailureCount>100</skipAfterFailureCount>
+                    <skipAfterFailureCount>70</skipAfterFailureCount>
 
                 </configuration>
             </plugin>
@@ -70,7 +70,7 @@
                                 <limit>
                                     <counter>BRANCH</counter>
                                     <value>COVEREDRATIO</value>
-                                    <minimum>1.0</minimum>
+                                    <minimum>0.7</minimum>
                                 </limit>
                             </limits>
                         </rule>
